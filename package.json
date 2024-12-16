@@ -1,0 +1,39 @@
+{
+  "name": "@blum/sdk",
+  "version": "0.1.0 beta",
+  "description": "Blum SDK",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attikusfinch/blum-sdk.git"
+  },
+  "keywords": [
+    "blum",
+    "ton",
+    "mempad"
+  ],
+  "author": "https://t.me/fiscalforever",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "@ton/core": "^0.59.0",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.1.0",
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}

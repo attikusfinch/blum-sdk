@@ -1,6 +1,5 @@
 {
-  "name": "@blum/sdk",
-  "version": "0.1.0 beta",
+  "name": "@fiscaldev/blum-sdk",
   "description": "Blum SDK",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -20,7 +19,7 @@
     "mempad"
   ],
   "author": "https://t.me/fiscalforever",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "files": [
     "dist"
   ],
@@ -35,5 +34,13 @@
     "@types/node": "^20.14.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
-  }
+  },
+  "version": "0.1.0",
+  "directories": {
+    "example": "examples"
+  },
+  "bugs": {
+    "url": "https://github.com/attikusfinch/blum-sdk/issues"
+  },
+  "homepage": "https://github.com/attikusfinch/blum-sdk#readme"
 }
